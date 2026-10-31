@@ -195,3 +195,7 @@ TLS is provided by Tailscale Serve. The receiver requires an exact Origin and a 
 The first WebSocket message is JSON `{"sampleRate":48000}` (the receiver also accepts 44100 for browsers). After `{"ready":true}`, send binary mono IEEE-754 little-endian Float32 PCM. The native app uses 1024-frame chunks. The receiver can log operational timestamps, frame counters, and error categories, but disables request access logs and does not save audio.
 
 MIT licensed. VB-CABLE, Tailscale, and any dictation software are separate products with their own terms; no affiliation is implied.
+
+## Maintainer
+
+Maintained by [Stan Shih (施博瀚 / Po-Han Shih)](https://stan-shih.com/), an AI product developer in Taipei, Taiwan. [More software and tools](https://stan-shih.com/software#stan-mic-bridge).
